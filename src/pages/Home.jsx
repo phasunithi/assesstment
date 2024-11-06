@@ -26,7 +26,7 @@ function Home() {
             <div className=" flex justify-center items-center  space-x-10 mb-20" >
               <Link
                 to="UserHomeSector"
-                className=" text-black bg-white py-2 px-6 rounded-md"
+                className=" text-black bg-slate-200 py-2 px-6 rounded-md font-semibold hover:bg-sky-200 active:bg-sky-200 focus:outline-none focus:ring "
               >
                  User Home Sector
               </Link>
@@ -34,7 +34,7 @@ function Home() {
             
               <Link
                 to="AdminHomeSector"
-                className=" text-black bg-white py-2 px-6 rounded-md"
+                className=" text-black bg-slate-200 py-2 px-6 rounded-md font-semibold hover:bg-sky-200 active:bg-sky-200 focus:outline-none focus:ring"
               >
                  Admin Home Sector
               </Link>
